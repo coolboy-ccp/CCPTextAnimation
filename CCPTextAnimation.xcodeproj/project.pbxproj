@@ -12,6 +12,8 @@
 		0076BEE72201989C00F314C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0076BEE52201989C00F314C2 /* Main.storyboard */; };
 		0076BEE92201989D00F314C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0076BEE82201989D00F314C2 /* Assets.xcassets */; };
 		0076BEEC2201989D00F314C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0076BEEA2201989D00F314C2 /* LaunchScreen.storyboard */; };
+		00C748512202874700060290 /* GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C748502202874700060290 /* GradientText.swift */; };
+		00C748532202909900060290 /* CCPTextAvaiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C748522202909900060290 /* CCPTextAvaiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0076BEE82201989D00F314C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0076BEEB2201989D00F314C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0076BEED2201989D00F314C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C748502202874700060290 /* GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientText.swift; sourceTree = "<group>"; };
+		00C748522202909900060290 /* CCPTextAvaiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCPTextAvaiable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		0076BED52201989C00F314C2 = {
 			isa = PBXGroup;
 			children = (
+				0076BEF3220198AE00F314C2 /* Animations */,
 				0076BEE02201989C00F314C2 /* CCPTextAnimation */,
 				0076BEDF2201989C00F314C2 /* Products */,
 			);
@@ -62,6 +67,15 @@
 				0076BEED2201989D00F314C2 /* Info.plist */,
 			);
 			path = CCPTextAnimation;
+			sourceTree = "<group>";
+		};
+		0076BEF3220198AE00F314C2 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				00C748522202909900060290 /* CCPTextAvaiable.swift */,
+				00C748502202874700060290 /* GradientText.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C748512202874700060290 /* GradientText.swift in Sources */,
 				0076BEE42201989C00F314C2 /* ViewController.swift in Sources */,
+				00C748532202909900060290 /* CCPTextAvaiable.swift in Sources */,
 				0076BEE22201989C00F314C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
