@@ -60,7 +60,6 @@ extension CCPTextAvaiable {
             CTRunGetPositions(ctRun, range, pos)
             let posX = pos.pointee.x
             let rate = Int(posX / UIScreen.main.bounds.width)
-            print(glyph)
             guard let path = CTFontCreatePathForGlyph(ctRunFont, glyph.pointee, nil) else { continue }
             let x = rate > 0 ? 0 : posX
             let y = pos.pointee.y - CGFloat(rate) * 88

@@ -55,7 +55,7 @@ class GradientText: UIView {
     }
     
     private func addGradient() {
-        let topColor = UIColor(red: 91 / 255, green: 91 / 255, blue: 91 / 255, alpha: 1.0).cgColor
+        let topColor = UIColor(red: 91 / 255, green: 255 / 255, blue: 91 / 255, alpha: 1.0).cgColor
         let bottomColor = UIColor(red: 255 / 255, green: 24 / 255, blue: 24 / 255, alpha: 1.0).cgColor
         gradientLayer.startPoint = CGPoint(x: 0, y: 0.5)
         gradientLayer.endPoint = CGPoint(x: 1, y: 0.5)
